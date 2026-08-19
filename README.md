@@ -6,7 +6,7 @@ An interactive Tableau dashboard suite analyzing sales, profit, and customer beh
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project explores retail sales and customer performance through two connected dashboards — a **Sales Dashboard** and a **Customer Dashboard** — both filterable by year, product category/sub-category, and location (region, state, city).
 
@@ -55,7 +55,7 @@ Both dashboards share a filter panel allowing analysis by:
 - Table calculations (e.g., `WINDOW_MAX` / `WINDOW_MIN`) to highlight peak and low-performing months
 - Dynamic, linked filters across both dashboards for cross-dimensional exploration
 
-## 🗂️ Data Sources
+##  Data Sources
 | File | Description |
 |---|---|
 | `Orders.csv` | Transaction-level order data — sales, profit, quantity, discount |
@@ -63,7 +63,7 @@ Both dashboards share a filter panel allowing analysis by:
 | `Products.csv` | Product catalog with category/sub-category |
 | `Location.csv` | Postal code to city/state/region mapping |
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 sales-performance-dashboard-tableau/
 ├── README.md
@@ -80,13 +80,13 @@ sales-performance-dashboard-tableau/
     └── Location.csv
 ```
 
-## 🚀 How to Explore
+##  How to Explore
 1. **Interact live:** Open the [Tableau Public link](https://public.tableau.com/app/profile/hardik.rawat7391/viz/Book1_17871380555460/SalesDashboard) — no installation needed.
 2. **Explore in Tableau Desktop:** Download `dashboard/Book1.twb` **along with** the `data/` folder, keeping the same relative structure, then open the `.twb` file in [Tableau Desktop](https://www.tableau.com/products/desktop) or [Tableau Public](https://public.tableau.com/en-us/s/download) (both free). The workbook connects to the CSVs in `data/`, so both folders need to be downloaded together for it to open correctly.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hardik Rawat**
 B.Tech, Computer Science & Engineering (Data Science) — Manipal Institute of Technology, Bengaluru
