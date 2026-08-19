@@ -49,7 +49,7 @@ Both dashboards share a filter panel allowing analysis by:
 
 ---
 
-## 🛠️ Tools & Techniques
+##  Tools & Techniques
 - **Tableau Public / Tableau Desktop** for dashboard design and interactivity
 - Relational joins across 4 source tables: `Orders`, `Customers`, `Products`, `Location`
 - Table calculations (e.g., `WINDOW_MAX` / `WINDOW_MIN`) to highlight peak and low-performing months
